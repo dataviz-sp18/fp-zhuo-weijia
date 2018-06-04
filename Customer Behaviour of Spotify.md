@@ -23,13 +23,13 @@ The interactive visualisations are displayed on a `Shiny` app that can be access
 
 ## Results
 
-We first looked at some general trend of pop songs in 2017. The below heatmap is displaying top 50 songs in 2017. The ranks are shown by the size of the blocks and  highlighed by color; a cooler color represents a less popular song. 
+We first looked at some general trend of pop songs in 2017. The below heatmap is displaying top 50 songs in 2017. The ranks are shown by the size of the blocks and  highlighed by color; a cooler color represents a less popular song. The color palatte is set to be discrete so that each color represent one tier of popularity.
 
-From the graph, it is obvious that track 'Shape of You' ranks the first and far leading the game. 
+From the graph, it is obvious that track 'Shape of You' ranks the first and far leading the game. The color is assigned to each block so that the hotter song have a warmer color.
 
 ![image](https://user-images.githubusercontent.com/22485624/40893020-4ea0c95a-6764-11e8-8959-c2f6fac2a774.png)
 
-Next we plot the most popular artist of 2017. Again, Ed Shareen has led the game and is far more popular than other artists.
+Next we plot the most popular artist of 2017. Again, Ed Shareen has led the game and is far more popular than other artists. Other artists such as Drake and The Chainsmokers also rank high in 2017.
 
 ![image](https://user-images.githubusercontent.com/22485624/40893470-f27dccd8-6766-11e8-9206-f0a5f009eddd.png)
 
@@ -37,7 +37,7 @@ We then plotted a box plot to show the skewnewss and outliers for each have the 
 
 ![image](https://user-images.githubusercontent.com/22485624/40894828-c798e3f8-6771-11e8-9c9b-54861c7dea95.png)
 
-A series of feature maps are ploted by ggmap. For example, from the map of dancability below, the United States and the south of South America people favor more dancable music.
+A series of feature maps are ploted by ggmap. For example, from the map of dancability below, the United States and the south of South America people favor more dancable music. Other audio features can be viewed by selecting the radio buttons on the sidebar.
 
 ![image](https://user-images.githubusercontent.com/22485624/40895495-7f67fe76-6775-11e8-9379-07d930c939d1.png)
 
@@ -49,4 +49,7 @@ We then want to see the top hit songs for each region. Ed Sheeran's ['Thinking O
 
 ![image](https://user-images.githubusercontent.com/22485624/40895826-2e015b7a-6777-11e8-8125-018f7f33362b.png)
 
-We believe our research has some marketing value that the company can promote songs more efficiently with a certain country's characteristics.
+During our research, we encountered some difficulties. First, some country names cannot be detected by R when we performed the map, thus we need to spend some extra time to go through the country names in the dataset to make sure they can be matched. Second, map can be hard to interpreted when the difference among the regions are small thus we have to check the outliers and sample sizes for each region before creating the visual. 
+
+We believe our research has some marketing value that the company can promote songs more efficiently with a certain country's characteristics. This also provide a vivid view on the business value of the artists in year 2017 thus it may be useful for advertising purposes.
+
