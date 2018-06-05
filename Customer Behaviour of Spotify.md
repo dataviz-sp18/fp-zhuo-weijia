@@ -19,7 +19,7 @@ The audio features include:
 
 ## Methods
 
-The interactive visualisations are displayed on a `Shiny` app that can be accessed at _________. We analysed the overall trend of songs in 2017 and then divide by coutries. A variety of graphs are build to show our results including an interactive box plot, an interactive map, an interactive bubble plot, stacked bar plot and heatmaps. All interactive graphs except the heatmaps can be accessed on the shiny app page, this markdown shows the samples of the graphs.
+The interactive visualisations are displayed on a `Shiny` app. We analysed the overall trend of songs in 2017 and then divide by coutries. A variety of graphs are build to show our results including an interactive box plot, an interactive map, an interactive bubble plot, stacked bar plot and heatmaps. All interactive graphs except the heatmaps can be accessed on the shiny app page, this markdown shows the samples of the graphs.
 
 ## Results
 
